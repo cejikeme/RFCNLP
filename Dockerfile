@@ -12,7 +12,7 @@ RUN apt-get -y upgrade
 RUN apt-get install -y apt-utils python3-pip
 WORKDIR rfcnlp
 RUN python3 -m pip install --upgrade pip
-RUN pip3 install numpy==1.17.4
+RUN pip3 install numpy==1.21
 RUN pip3 install --upgrade transitions
 RUN pip3 install --upgrade networkx
 RUN pip3 install --upgrade matplotlib
